@@ -1,0 +1,35 @@
+name: Update release changelog
+
+on:
+  release:
+    types: [published, edited]
+  push:
+    branches: [main]
+    paths: ['.release/**', '.github/workflows/changelog.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-changelog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - name: Test changelog generation and retry behavior
+        run: python -m unittest discover -s .release -p 'test_*.py'
+      - name: Archive published release notes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .release/update_changelog.py
