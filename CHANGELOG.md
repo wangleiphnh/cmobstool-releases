@@ -6,6 +6,20 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.4](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.4)
+
+发布日期：2026-11-12 20:25（UTC+8）
+
+HEX 数量识别修复
+
+- 修复 HEX 数量达到 10 及以上时可能识别不完整的问题。
+- 改善相邻数字、右对齐数量及不同缩放下的数字识别。
+- 无法可靠识别完整数量时按未知处理，减少数量误判。
+- 整理使用说明与开发文档入口，方便查找安装、配置和开发说明。
+- 发布仓库新增自动维护的版本更新日志，可查看各版本更新内容。
+
+---
+
 ## [0.1.3](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.3)
 
 发布日期：2026-11-12 18:48（UTC+8）
