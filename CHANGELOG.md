@@ -6,6 +6,18 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.9](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.9)
+
+发布日期：2026-11-14 00:16（UTC+8）
+
+- 新增手动截图：运行控制和功能检测页可保存游戏区域或包含标题栏、边框的整体窗口，使用 PNG 格式，完成后显示实际保存路径。截图保存在程序同级的 screenshots 文件夹，不可写时回退应用数据目录，不上传图片。
+- 新增本地鼠标追踪与蘑菇测谎素材测试：支持选择视频或图片、播放、停止和重播，显示识别框、模拟跟随点及蘑菇双击轮次，可选择 CPU 或 DirectML 推理。仅待机可用，不连接输入设备、不发送实际键鼠操作。
+- 将 HEX 加速器“仅解轮后使用”的有效窗口从 3 分钟延长至 6 分钟；原有使用间隔、数量和区域确认条件继续生效。
+
+截图覆盖、真实素材识别率、游戏与设备行为及安装升级效果仍待用户整体验证。首次使用本机驱动输入仍需手动安装 Interception 并重启 Windows。
+
+---
+
 ## [0.1.8](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.8)
 
 发布日期：2026-11-13 22:30（UTC+8）
