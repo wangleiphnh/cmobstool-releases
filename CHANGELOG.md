@@ -6,6 +6,18 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.14](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.14)
+
+发布日期：2026-11-14 23:31（UTC+8）
+
+- HEX 加速器识别兼容红、蓝两种图标，并补充无底座窄字形数字 1，改善数量读取。
+- 优化输入许可续期日志：期限仍有余量的短时波动仅记入详细诊断，接近截止或写入失败继续警告，输入期限及停止保护保持生效。
+- 安装资源不再分发模型来源清单 SOURCES.json，模型资源清单移除原始路径和明文摘要；升级安装会清理旧版遗留的来源清单，保留加密模型和许可证。
+
+真实画面识别率、设备释放及安装升级效果仍待用户整体验证。首次使用本机驱动输入仍需手动安装 Interception 并重启 Windows。
+
+---
+
 ## [0.1.13](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.13)
 
 发布日期：2026-11-14 22:02（UTC+8）
