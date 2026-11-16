@@ -6,6 +6,18 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.18](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.18)
+
+发布日期：2026-11-16 14:52（UTC+8）
+
+- 修复 BOSS 房菜单、入房、休息及退房过程中，短暂画面中断导致任务过早停止的问题；无输入等待阶段最多等待 5 秒，取得新鲜画面后继续。
+- 修复休息结束后的房间复核和退房确认等待不一致的问题，短暂断帧不会重新计算休息时间或重复点击菜单。
+- 优化 BOSS 往返过程的松键回执处理，画面恢复前暂停新的按键和鼠标操作；输入结果未知、取消或等待超时仍按既有流程停止清理。
+
+真实画面识别率、设备释放及安装升级效果仍待用户整体验证。首次使用本机驱动输入仍需手动安装 Interception 并重启 Windows。
+
+---
+
 ## [0.1.17](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.17)
 
 发布日期：2026-11-16 10:50（UTC+8）
