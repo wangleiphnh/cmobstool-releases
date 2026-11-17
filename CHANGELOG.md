@@ -6,6 +6,18 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.24](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.24)
+
+发布日期：2026-11-17 22:58（UTC+8）
+
+- HEX 加速器不再依赖数量识别或数量区域标定；到使用时间后直接尝试，并通过按键后的弹窗判断是否已用完。
+- 按使用键后有新画面但四秒内始终未出现弹窗时，本次运行不再使用 HEX；重新手动开始会清除该标记，自动重连不会重复尝试。
+- 保留原有使用间隔及“仅解轮后六分钟内使用”设置；无有效新画面不判定耗尽，输入异常继续按原有停止和清理规则处理。
+
+真实游戏画面、设备输入及安装升级效果仍需用户整体验证。
+
+---
+
 ## [0.1.23](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.23)
 
 发布日期：2026-11-17 18:25（UTC+8）
