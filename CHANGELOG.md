@@ -6,6 +6,18 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.25](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.25)
+
+发布日期：2026-11-18 15:39（UTC+8）
+
+- HEX 加速器不再要求设置图标或数量区域；到使用时间后直接尝试，并根据使用后的弹窗判断结果。旧方案中的数量区域会自动忽略。
+- 增加台服 Buff 弹窗模板，并按模板来源画面尺寸匹配不同分辨率的受阻恢复画面。
+- 授权凭证校验失败时显示诊断错误码，便于联系管理员排查；登录界面不显示具体校验原因。
+
+真实游戏画面、设备输入及安装升级效果仍需用户整体验证。
+
+---
+
 ## [0.1.24](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.24)
 
 发布日期：2026-11-17 22:58（UTC+8）
