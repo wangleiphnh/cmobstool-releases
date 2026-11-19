@@ -6,6 +6,15 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.30](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.30)
+
+发布日期：2026-11-19 17:39（UTC+8）
+
+- 普通导航走满 15 步仍未到达时，当次通过已启用的桌面、声音和钉钉渠道报警。
+- 「识别与报警 → 综合检测」新增「循环动作停止」，默认关闭。开启后，解轮或定点打怪对同一目标连续两轮各走满 15 步仍未到达时，报警并停止任务、清理按键。每轮内的脱困钩锁照常尝试。
+
+---
+
 ## [0.1.29](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.29)
 
 发布日期：2026-11-19 16:13（UTC+8）
