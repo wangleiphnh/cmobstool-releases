@@ -6,6 +6,15 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.29](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.29)
+
+发布日期：2026-11-19 16:13（UTC+8）
+
+- 周期休息新增「出 BOSS 房后按键组」，默认关闭。开启后，确认返回原地图时执行一次；BOSS 房往返测试也支持该设置。
+- 修复出 BOSS 房后只补放一个落点技能就开始巡游的问题。进房前执行到一半、且所有成员都有落点的同冷却组，回图后会按新位置整组重新排队，优先于巡游捡物。
+
+---
+
 ## [0.1.28](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.28)
 
 发布日期：2026-11-19 15:23（UTC+8）
