@@ -6,6 +6,16 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.28](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.28)
+
+发布日期：2026-11-19 15:23（UTC+8）
+
+- 上跳脱困使用小地图总高度的固定 5% 作为两次上跳的累计进展门槛，减少因少量位移反复上跳的情况。
+- 连续两轮上跳受阻并完成横向换位后，若目标仍在上方且已配置钩锁键，本次导航会优先尝试一次脱困钩锁。这次尝试占 15 步预算中的 1 步。
+- 授权到期提示统一为「超过允许期限」，适用于授权签名有效期和连接中断期限。
+
+---
+
 ## [0.1.27](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.27)
 
 发布日期：2026-11-19 14:55（UTC+8）
