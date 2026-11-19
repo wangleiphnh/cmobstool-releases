@@ -6,6 +6,16 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.26](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.26)
+
+发布日期：2026-11-19 11:03（UTC+8）
+
+- 窗口切图或缩放时，WGC 会等待画面尺寸稳定再恢复采集。确认裁剪时也会校验当前画面，避免误用旧坐标。
+- PrintWindow 遇到黑帧时继续尝试窗口采集。Boss 入房和回图各有 15 秒确认期限，超时后停止并记录原因。
+- 画面坐标变化的停机日志增加前后尺寸、DPI、采集方式和最近故障，方便排查中断。
+
+---
+
 ## [0.1.25](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.25)
 
 发布日期：2026-11-18 15:39（UTC+8）
