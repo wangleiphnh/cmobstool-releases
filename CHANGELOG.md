@@ -6,6 +6,15 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.34](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.34)
+
+发布日期：2026-11-23 15:20（UTC+8）
+
+- 修复双机模式下部分采集卡画面无法自动定位游戏窗口的问题，改善窗口边缘对比度低、独立聊天窗贴近游戏窗口时的识别。
+- 加强补充定位的底边检查，减少将游戏内横线误判为窗口底边而裁掉状态栏、技能栏或经验条的情况。
+
+---
+
 ## [0.1.33](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.33)
 
 发布日期：2026-11-23 10:13（UTC+8）
