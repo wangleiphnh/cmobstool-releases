@@ -6,6 +6,16 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.33](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.33)
+
+发布日期：2026-11-23 10:13（UTC+8）
+
+- 增加符文误测诊断，每张新的有效符文命中帧在控制台记录警告，包含像素位置、模型置信度和帧序号，并保存对应原画面截图及诊断信息。
+- 符文命中诊断仅写本地日志和截图，不触发声音、桌面通知或钉钉推送。连续新帧分别记录，同一帧重复消费只记录一次。
+- 简化 Boss 入房确认：新画面识别到水晶树根，且小地图有效并与入房前不同，即开始房内休息计时。保留 15 秒确认期限及超时清理。
+
+---
+
 ## [0.1.32](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.32)
 
 发布日期：2026-11-20 14:33（UTC+8）
