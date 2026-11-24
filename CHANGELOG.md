@@ -6,6 +6,17 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.35](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.35)
+
+发布日期：2026-11-24 19:51（UTC+8）
+
+- 修复游戏区域重置后仍沿用手动裁剪的问题。重置会清除框选，双机和采集卡会根据新画面重新定位游戏区域。
+- BOSS 退房前用水晶树根确认房间，退房对话按「是」的选中状态确认，避免小地图画面变化导致退房超时。
+- 水平瞬移松开方向键后，已配置攻击且未开启暴风系持续攻击时，执行一次攻击键或按键组。
+- 新增「识别到符文时截图」开关，默认关闭。开启后保存识别命中时的画面。
+
+---
+
 ## [0.1.34](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.34)
 
 发布日期：2026-11-23 15:20（UTC+8）
