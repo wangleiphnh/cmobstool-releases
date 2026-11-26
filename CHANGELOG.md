@@ -6,6 +6,16 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.36](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.36)
+
+发布日期：2026-11-26 10:53（UTC+8）
+
+- 改进小地图角色定位，减少召唤物图标干扰，修复角色黄点贴近底边时的漏检。
+- 小地图符文检测增加粉紫色复核，减少紫色召唤物被误判为符文的情况。
+- 水平瞬移松开方向键后，已配置攻击且未开启暴风系持续攻击时，有 33% 的概率执行一次攻击键或按键组。
+
+---
+
 ## [0.1.35](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.35)
 
 发布日期：2026-11-24 19:51（UTC+8）
