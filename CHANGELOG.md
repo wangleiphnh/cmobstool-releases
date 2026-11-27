@@ -6,6 +6,16 @@
 
 <!-- cmobstool-changelog:start -->
 
+## [0.1.37](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.37)
+
+发布日期：2026-11-27 13:24（UTC+8）
+
+- 定点攻击完成弹窗扫描后立即发布扫描结果，减少后续模型推理延迟引发的超时停机。继续校验新画面并按原流程清理按键。
+- 优化周期休息后的回图确认。小地图有有效纹理且尺寸一致时，可作为回图确认条件，减少地图画面变化引发的超时。
+- 简体中文和繁体中文 Windows 环境显示「月光可乐」。安装器支持简体中文、繁体中文和英文，覆盖安装会迁移属于本应用的旧快捷方式。
+
+---
+
 ## [0.1.36](https://github.com/wangleiphnh/cmobstool-releases/releases/tag/v0.1.36)
 
 发布日期：2026-11-26 10:53（UTC+8）
